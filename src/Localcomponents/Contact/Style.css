@@ -1,0 +1,25 @@
+.contact {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+ 
+}
+.contact {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.contact-form button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

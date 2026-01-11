@@ -1,0 +1,52 @@
+.projects-section {
+    text-align: center;
+    padding: 50px 20px;
+      background-color: #fdfcc3;
+      
+}
+
+.projects-section h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.b{
+    margin-left: 60%;
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+.card {
+    background: white;
+    width: 350px;
+    height: 320px;
+    padding: 20px;
+    font-weight: 1000;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+}
+.card:hover {
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+    color: rgb(17, 14, 16);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,73 @@
+/* Main container */
+.ai-container {
+  max-width: 520px;
+  margin: 60px auto;
+  padding: 28px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title */
+.ai-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 22px;
+  letter-spacing: 0.5px;
+}
+
+/* Input group */
+.ai-input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+.ai-input {
+  flex: 1;
+  padding: 14px 16px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.ai-input::placeholder {
+  color: #cfd8dc;
+}
+
+.ai-input:focus {
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 0 2px rgba(0, 188, 212, 0.4);
+}
+
+/* Ask button */
+.ai-button {
+  padding: 14px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.ai-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 114, 255, 0.5);
+}
+
+.ai-button:active {
+  transform: scale(0.98);
+}
+
+/* Respon*
