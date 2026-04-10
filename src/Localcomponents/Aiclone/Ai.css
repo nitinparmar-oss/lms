@@ -1,0 +1,72 @@
+.ai-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ai-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.ai-input-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f4f4f5;
+  border-radius: 999px;
+  padding: 10px 14px;
+}
+
+.ai-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 10px 12px;
+  color: #111;
+}
+
+.ai-input::placeholder {
+  color: #888;
+}
+
+.ai-button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ai-button:hover {
+  background: #333;
+}
+
+.ai-response {
+  margin-top: 25px;
+  text-align: left;
+  background: #fafafa;
+  padding: 18px;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.ai-loading {
+  color: #666;
+  font-style: italic;
+}
